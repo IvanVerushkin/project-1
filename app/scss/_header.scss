@@ -1,0 +1,51 @@
+.header {
+    &__top {
+        background-color: cornflowerblue;
+        padding: 5px 0;
+        a {
+            font-size: 18px;
+            color: #000;
+            margin-right: 10px;
+        }
+    }
+    &__bottom {
+        &-inner {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        &-navbar {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.logotype {
+    font-size: 32px;
+    color: saddlebrown;
+}
+
+.navigation {
+    margin-right: 20px;
+    font-size: 18px;
+    ul {
+        display: flex;
+        :last-child {
+            margin-right: 0;
+        }
+    }
+    li {
+        margin-right: 18px;
+    }
+    a {
+        color: saddlebrown;
+    }
+}
+
+.search {
+    span {
+        visibility: hidden;
+        font-size: 0;
+    }
+}
