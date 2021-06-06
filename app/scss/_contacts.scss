@@ -1,16 +1,49 @@
+.section-contact {
+    p,a,h5 {
+        font-size: 18px;
+    }
+}
+
 .our-contacts {
     text-align: center;
     margin: 30px 0;
     line-height: 1.6;
-    h5 {
-        font-size: 18px;
-    }
     &-pnt {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+.contact {
+    &__title {
+        font-size: 20px;
+        text-align: center;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        margin: 10px auto;
+        input, textarea {
+            margin: 10px 0;
+            padding: 7px;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+    }
+    &__button {
+        width: 120px;
+        padding: 7px;
+        background-color: saddlebrown;
+        border: 1px solid gray;
+        color: #fff;
+        margin: 10px auto;
+        border-radius: 10px;
     }
 }
 
 .map {
     text-align: center;
+    margin: 20px 0;
 }
-
