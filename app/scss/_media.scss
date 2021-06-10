@@ -72,6 +72,20 @@
     .logotype {
         font-size: 18px;
     }
+    .first__link {
+        width: 75%;
+    }
+    .first__body {
+        h2 {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    .first__image {
+        height: 240px;
+    }
 }
 
 @media (max-width: 375px) {
