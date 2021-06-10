@@ -13,7 +13,7 @@ $('.slider__body').slick({
           settings: {
           slidesToShow: 2,
           arrows: false,
-          dots: true,
+          dots: false,
          }
        },
        {
@@ -21,7 +21,7 @@ $('.slider__body').slick({
           settings: {
           slidesToShow: 1,
           arrows: false,
-          dots: true
+          dots: false
          }
        }
     ]

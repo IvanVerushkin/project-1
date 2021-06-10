@@ -28,6 +28,13 @@
     }
 }
 
+.header__lower-search {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px 5px 0;
+    background-color: rgb(247, 230, 133);
+}
+
 .logotype {
     font-size: 32px;
 }
@@ -42,7 +49,7 @@
         }
     }
     li {
-        margin-right: 18px;
+        margin-right: 20px;
     }
 
 }
