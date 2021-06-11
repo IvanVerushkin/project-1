@@ -36,6 +36,7 @@
     }
 }
 
+
 @media (max-width: 720px) {
     .logotype {
         font-size: 21px;
@@ -49,9 +50,19 @@
 }
 
 
+@media (max-width: 668px) {
+    .contact__form {
+        width: 75%;
+    }
+}
+
+
 @media (max-width: 533px) {
     .navigation {
         margin-right: 0;
+    }
+    .fasad {
+        width: 100%;
     }
 }
 
@@ -86,7 +97,11 @@
     .first__image {
         height: 240px;
     }
+    .contact__form {
+        width: 90%;
+    }
 }
+
 
 @media (max-width: 414px) {
     .first__image {
@@ -95,7 +110,11 @@
     .first__subtitle {
         font-size: 14px;
     }
+    .fasad {
+        height: 375px;
+    }
 }
+
 
 @media (max-width: 375px) {
     .header__top {
@@ -105,6 +124,9 @@
     }
     .first__subtitle {
         font-size: 12px;
+    }
+    .fasad {
+        height: 360px;
     }
 }
 
