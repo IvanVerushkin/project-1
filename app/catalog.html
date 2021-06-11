@@ -13,9 +13,11 @@
 
             <div class="header__top">
                <div class="container">
-                  <a class="phone" href="tel:+89185508710">8-918-550-8710</a>
-                  <a class="phone" href="tel:+89085160096">8-908-516-0096</a>
-                  <a class="mail" href="mailto:alica302010@yandex.ru">alica302010@yandex.ru</a>
+                  <div class="header__top-inner">
+                     <a class="phone" href="tel:+89185508710">8-918-550-8710</a>
+                     <a class="phone" href="tel:+89085160096">8-908-516-0096</a>
+                     <a class="mail" href="mailto:alica302010@yandex.ru">alica302010@yandex.ru</a>
+                  </div>
                </div>
             </div>
 
@@ -30,17 +32,17 @@
                                  <a class="page" href="index.html">Главная</a>
                               </li>
                               <li>
-                                 <a class="page" href="#">Каталог товаров</a>
+                                 <a class="page" href="catalog.html">Каталог</a>
                               </li>
-                              <li>
+                              <!-- <li>
                                  <a class="page" href="#">Оплата и доставка</a>
-                              </li>
+                              </li> -->
                               <li>
                                  <a class="page" href="contacts.html">Контакты</a>
                               </li>
                            </ul>
                         </nav>
-                        <div class="search">
+                        <div class="search search--1">
                            <form class="search-form" action="">
                               <label>
                                  <span>поиск товаров</span>
@@ -50,6 +52,17 @@
                         </div>
                      </div>
                   </div>
+               </div>
+            </div>
+
+            <div class="header__lower-search">
+               <div class="search search--2">
+                  <form class="search-form" action="">
+                     <label>
+                        <span>поиск товаров</span>
+                        <input type="search" name="" placeholder="найти" required>
+                     </label>
+                  </form>
                </div>
             </div>
          </header>
@@ -64,80 +77,56 @@
                            <h5 class="catalog__menu-title">Категории</h5>
                            <ul class="catalog__menu-list">
                               <li class="catalog__menu-item">
-                                 <a class="catalog__menu-link" href="#">Название</a>
-                                 <ul class="catalog__submenu">
-                                    <li class="catalog__submenu-item">
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                    </li>
-                                 </ul>
+                                 <button class="catalog__menu-btn">
+                                    Газовые Котлы
+                                 </button>
                               </li>
                               <li class="catalog__menu-item">
-                                 <a class="catalog__menu-link" href="#">Название</a>
-                                 <ul class="catalog__submenu">
-                                    <li class="catalog__submenu-item">
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                    </li>
-                                 </ul>
+                                 <button class="catalog__menu-btn">
+                                    Газовые колонки
+                                 </button>
                               </li>
                               <li class="catalog__menu-item">
-                                 <a class="catalog__menu-link" href="#">Название</a>
-                                 <ul class="catalog__submenu">
-                                    <li class="catalog__submenu-item">
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                    </li>
-                                 </ul>
+                                 <button class="catalog__menu-btn">
+                                    Газовое и газоэлектрические плиты
+                                 </button>
                               </li>
                               <li class="catalog__menu-item">
-                                 <a class="catalog__menu-link" href="#">Название</a>
-                                 <ul class="catalog__submenu">
-                                    <li class="catalog__submenu-item">
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                    </li>
-                                 </ul>
+                                 <button class="catalog__menu-btn">
+                                    АОГВ
+                                 </button>
                               </li>
                               <li class="catalog__menu-item">
-                                 <a class="catalog__menu-link" href="#">Название</a>
-                                 <ul class="catalog__submenu">
-                                    <li class="catalog__submenu-item">
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                    </li>
-                                 </ul>
+                                 <button class="catalog__menu-btn">
+                                    Запчасти на газовые колонки
+                                 </button>
                               </li>
                               <li class="catalog__menu-item">
-                                 <a class="catalog__menu-link" href="#">Название</a>
-                                 <ul class="catalog__submenu">
-                                    <li class="catalog__submenu-item">
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                    </li>
-                                 </ul>
+                                 <button class="catalog__menu-btn">
+                                    Электронагреватели
+                                 </button>
                               </li>
                               <li class="catalog__menu-item">
-                                 <a class="catalog__menu-link" href="#">Название</a>
-                                 <ul class="catalog__submenu">
-                                    <li class="catalog__submenu-item">
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                       <a class="catalog__submenu-link" href="#">Название</a>
-                                    </li>
-                                 </ul>
+                                 <button class="catalog__menu-btn">
+                                    Сантехника
+                                 </button>
+                              </li>
+                              <li class="catalog__menu-item">
+                                 <button class="catalog__menu-btn">
+                                    Смесители
+                                 </button>
                               </li>
                            </ul>
                         </nav>
                      </div>
 
-                     <div class="catalog__items"></div>
+                     <div class="catalog__body">
+                        <div class="catalog__item">
+                           <img class="catalog__image" src="" alt="">
+                           <p class="catalog__price"></p>
+                           <p class="catalog__description"></p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </section>

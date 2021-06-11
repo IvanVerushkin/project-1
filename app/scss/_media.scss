@@ -43,13 +43,18 @@
     .first__title {
         font-size: 25px;
     }
+    .first__subtitle {
+        font-size: 20px;
+    }
 }
+
 
 @media (max-width: 533px) {
     .navigation {
         margin-right: 0;
     }
 }
+
 
 @media (max-width: 480px) {
     .navigation {
@@ -75,16 +80,20 @@
     .first__link {
         width: 75%;
     }
-    .first__body {
-        h2 {
-            font-size: 16px;
-        }
+    .first__subtitle {
+        font-size: 16px;
+    }
+    .first__image {
+        height: 240px;
     }
 }
 
 @media (max-width: 414px) {
     .first__image {
-        height: 240px;
+        height: 220px;
+    }
+    .first__subtitle {
+        font-size: 14px;
     }
 }
 
@@ -93,6 +102,9 @@
         a {
             font-size: 12px;
         }
+    }
+    .first__subtitle {
+        font-size: 12px;
     }
 }
 

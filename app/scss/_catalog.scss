@@ -1,0 +1,12 @@
+.catalog {
+    &__inner {
+        display: flex;
+        padding: 30px 0;
+    }
+    &__body {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+}
