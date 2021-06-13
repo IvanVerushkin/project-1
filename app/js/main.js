@@ -26,3 +26,11 @@ $('.slider__body').slick({
        }
     ]
 });
+
+// $('.categories').on('click', function(){
+//   $('.categories__menu-list').toggleClass('active');
+// });
+
+$('.categories').on('click', function(){
+  $('.categories__menu-list').slideToggle();
+});

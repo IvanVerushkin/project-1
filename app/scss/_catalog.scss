@@ -22,10 +22,11 @@
         &-item {
             margin-bottom: 15px;
         }
-        &-btn {
+        &-link {
             text-align: left;
             background-color: rgb(247, 230, 133);
             font-size: 17px;
+            color: black;
         }
     }
     &__body {
@@ -60,4 +61,45 @@
             }
         }
     }
+}
+
+.categories {
+    position: relative;
+    background-color: rgb(197, 53, 70);
+    color: white;
+    margin-left: 10px;
+    align-self: center;
+    padding: 2px 6px;
+    &__menu-list {
+        position: absolute;
+        display: none;
+        padding: 10px 10px 5px 10px;
+        transition: all .5s;
+        top: 27px;
+        left: -1px;
+        background-color: rgb(247, 230, 133);
+    }
+    &__menu-item {
+        margin-bottom: 15px;
+        
+    }
+    &__menu-link {
+        width: 100%;
+        color: #000;
+        font-size: 13px;
+    }
+}
+
+
+.first__image {
+    height: 220px;
+}
+.first__subtitle {
+    font-size: 14px;
+}
+.fasad {
+    height: 375px;
+}
+.catalog__menu-link {
+    font-size: 17px;
 }
