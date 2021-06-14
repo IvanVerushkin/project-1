@@ -76,7 +76,7 @@
         height: auto;
         padding: 10px 10px 5px 10px;
         transition: top .5s;
-        top: -290px;
+        top: -315px;
         left: -1px;
         background-color: rgb(247, 230, 133);
         z-index: -1;
@@ -85,13 +85,13 @@
         }
     }
     &__menu-item {
-        margin-bottom: 15px;
+        margin-bottom: 17px;
 
     }
     &__menu-link {
         width: 100%;
         color: #000;
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
