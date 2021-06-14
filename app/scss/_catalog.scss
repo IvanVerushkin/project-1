@@ -69,19 +69,24 @@
     color: white;
     margin-left: 10px;
     align-self: center;
-    padding: 2px 6px;
+    padding: 2px 8px;
     &__menu-list {
         position: absolute;
-        display: none;
+        display: block;
+        height: auto;
         padding: 10px 10px 5px 10px;
-        transition: all .5s;
-        top: 27px;
+        transition: top .5s;
+        top: -290px;
         left: -1px;
         background-color: rgb(247, 230, 133);
+        z-index: -1;
+        &.active {
+            top: 27px;
+        }
     }
     &__menu-item {
         margin-bottom: 15px;
-        
+
     }
     &__menu-link {
         width: 100%;

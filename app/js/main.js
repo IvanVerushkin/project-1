@@ -27,10 +27,17 @@ $('.slider__body').slick({
     ]
 });
 
+let categories = document.querySelector('.categories');
+let categories__menu_list = document.querySelector('.categories__menu-list');
+
+categories.addEventListener('click', () => {
+  categories__menu_list.classList.toggle('active');
+});
+
 // $('.categories').on('click', function(){
 //   $('.categories__menu-list').toggleClass('active');
 // });
 
-$('.categories').on('click', function(){
-  $('.categories__menu-list').slideToggle();
-});
+// $('.categories').on('click', function(){
+//   $('.categories__menu-list').slideToggle();
+// });
