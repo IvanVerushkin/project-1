@@ -2,7 +2,9 @@
     .logotype {
         font-size: 28px;
     }
-    
+    // .catalog__item-inner {
+    //     width: 300px;
+    // }
 }
 
 @media (max-width: 823px) {
@@ -152,6 +154,14 @@
     }
     .contact__form {
         width: 90%;
+    }
+    .catalog__item {
+        &-description {
+            font-size: 13px;
+        }
+        &-price {
+            font-size: 15px;
+        }
     }
 }
 
