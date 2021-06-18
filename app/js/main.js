@@ -28,10 +28,10 @@ $('.slider__body').slick({
 });
 
 let categories = document.querySelector('.categories');
-let categories__menu_list = document.querySelector('.categories__menu-list');
+let categories__menu_nav = document.querySelector('.categories__nav');
 
 categories.addEventListener('click', () => {
-  categories__menu_list.classList.toggle('active');
+  categories__menu_nav.classList.toggle('active');
 });
 
 // $('.categories').on('click', function(){

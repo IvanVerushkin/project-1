@@ -3,6 +3,7 @@
     &__top {
         background-color: rgb(247, 230, 133);
         padding: 5px 0;
+        z-index: 30;
         a {
             font-size: 18px;
             color: #000;
@@ -11,6 +12,7 @@
     }
     &__bottom {
         background-color: rgb(197, 53, 70);
+        z-index: 30;
         a {
             color: #fff;
         }
@@ -28,13 +30,6 @@
             align-items: center;
         }
     }
-}
-
-.header__lower-search {
-    display: flex;
-    justify-content: flex-end;
-    padding: 5px 10px 5px 0;
-    background-color: rgb(247, 230, 133);
 }
 
 .logotype {
