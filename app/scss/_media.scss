@@ -98,6 +98,9 @@
             }
         }
     }
+    .search--2 {
+        margin-right: 15px;
+    }
 }
 
 
@@ -310,12 +313,17 @@
         font-size: 15px;
     }
     .search--2 {
+        margin-right: 10px;
         input {
             width: 190px;
         }
     }
     .catalog__item {
         flex-basis: 80%;
+        margin: 25px auto;
+    }
+    .catalog__inner {
+        padding: 20px 0;
     }
 }
 
@@ -326,9 +334,13 @@
         font-size: 13px;
     }
     .search--2 {
+        margin-right: 6px;
         input {
             width: 175px;
         }
+    }
+    .categories {
+        padding: 4px 10px;
     }
 }
 

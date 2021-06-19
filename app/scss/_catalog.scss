@@ -98,7 +98,8 @@
 .lower-nav {
     display: flex;
     justify-content: flex-end;
-    padding: 5px 0;
+    padding: 7px 0;
+    align-items: center;
     background-color: rgb(247, 230, 133);
 }
 
@@ -113,7 +114,7 @@
     color: white;
     margin-left: 10px;
     align-self: center;
-    padding: 2px 8px;
+    padding: 4px 12px;
     &::after {
         content: '\2630';
         margin-left: 5px;
@@ -122,34 +123,19 @@
         position: absolute;
         display: block;
         height: auto;
-        width: 170px;
+        width: 195px;
         padding: 10px 10px 5px 10px;
         transition: all .5s;
         transform: translateX(-135%);
         opacity: 0;
         top: 28px;
-        left: -1px;
         background-color: rgb(247, 230, 133);
         z-index: 4;
         &.active {
-            transform: translateX(-6%);
+            transform: translateX(-11%);
             opacity: 1;
         }
     }
-    // &__menu-list {
-    //     position: absolute;
-    //     display: block;
-    //     height: auto;
-    //     padding: 10px 10px 5px 10px;
-    //     transition: top .5s;
-    //     top: -315px;
-    //     left: -1px;
-    //     background-color: rgb(247, 230, 133);
-    //     z-index: -1;
-    //     &.active {
-    //         top: 27px;
-    //     }
-    // }
     &__menu-item {
         margin-bottom: 17px;
 
