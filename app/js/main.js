@@ -33,11 +33,3 @@ let categories__menu_nav = document.querySelector('.categories__nav');
 categories.addEventListener('click', () => {
   categories__menu_nav.classList.toggle('active');
 });
-
-// $('.categories').on('click', function(){
-//   $('.categories__menu-list').toggleClass('active');
-// });
-
-// $('.categories').on('click', function(){
-//   $('.categories__menu-list').slideToggle();
-// });

@@ -21,11 +21,11 @@
         &-list {
             padding: 20px;
         }
-        &-item {
+        li {
             max-width: 300px;
             margin-bottom: 15px;
         }
-        &-link {
+        a {
             text-align: left;
             background-color: rgb(247, 230, 133);
             font-size: 17px;
@@ -41,9 +41,9 @@
     }
     &__item {
         flex-basis: calc(100% / 3 - 30px);
-        max-width: 295px;
         margin: 0 0 40px 25px;
         box-shadow: 1px 1px 9px 0px rgba(132, 132, 132, 0.40);
+        text-align: center;
         z-index: 3;
         &-inner {
             display: flex;
@@ -76,9 +76,7 @@
 }
 
 .breadcrumbs {
-    padding: 8px 0;
     background-color: rgb(214, 214, 214);
-    font-size: 18px;
     &__list {
         display: flex;
     }
@@ -96,23 +94,21 @@
 }
 
 .lower-nav {
-    display: flex;
-    justify-content: flex-end;
-    padding: 7px 0;
-    align-items: center;
     background-color: rgb(247, 230, 133);
+    &__inner {
+        display: flex;
+        justify-content: flex-end;
+        padding: 7px 0;
+        align-items: center;
+    }
 }
 
-.search--2 {
-    margin-right: 5px;
-}
 
 .categories {
     position: relative;
     display: flex;
     background-color: rgb(197, 53, 70);
     color: white;
-    margin-left: 10px;
     align-self: center;
     padding: 4px 12px;
     &::after {
@@ -136,11 +132,10 @@
             opacity: 1;
         }
     }
-    &__menu-item {
+    li {
         margin-bottom: 17px;
-
     }
-    &__menu-link {
+    a {
         width: 100%;
         color: #000;
         font-size: 14px;

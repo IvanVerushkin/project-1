@@ -50,4 +50,7 @@
 .map {
     text-align: center;
     margin: 20px 0;
+    &__frame {
+        width: 95%;
+    }
 }
